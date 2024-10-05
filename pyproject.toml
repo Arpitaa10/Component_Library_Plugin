@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "component-library-plugin"
+version = "0.1.0"
+description = ""
+license = "MIT"
+authors = ["Amulya Paritosh <amulya1171@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+PySide2 = "^5"
+certifi = "^2023.5.7"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
